@@ -1,0 +1,8 @@
+% GEOMETRY
+% Matrix of nodel coordinates and conectivities
+
+% [X,T] = CreateMesh(0,1,0,1,nx,ny);
+X = load('x3.dat');
+T = load('t3.dat');
+nnode = size(X,1);
+% nx = sqrt(nnode)-1;
